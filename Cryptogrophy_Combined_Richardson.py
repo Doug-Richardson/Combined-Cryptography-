@@ -144,7 +144,7 @@ class Lenstra:
                     else:
                         return output
                     if (not C.oncurve(E)):
-                        print("Shit")
+                        print("This shouldn't be here...")
                         return gcd(E.x,n)
                 k = k + 1
         return -1
