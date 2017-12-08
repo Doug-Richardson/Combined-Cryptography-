@@ -1,6 +1,5 @@
 # Combined-Cryptography-
-This is a library that has access implementations of a few different cryptography algorithms
-This is a work in progress right now, If you are reading this, it isn't done yet.
+This is a library that has access implementations of a few different cryptography algorithms. If you would like to read the paper that I wrote to go allong with this code, it is part of this repository as well under the name 'A study into Modern Cryptogrophy'. It includes some detailed descriptions of how the algorithms actually work as well as a few proofs showing that they work.
 
 # Actual explination
 So this library contains two different modernly used cryptography methods. It uses ECDSA as a digital signature and it uses RSA for encryption. It also contains two methods for breaking RSA encryption (AKA-Factoring) Pollard's Rho and Lenstra's ECM. The full paper that goes allong with this code can be found here(LINK NOT AVAILABLE) and it goes into much more detail as to how these methods work.
